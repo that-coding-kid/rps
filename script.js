@@ -14,7 +14,6 @@ moves.addEventListener("click",(e) => {
     let target = e.target;
     player_choice = target.id;
     computer = computer_choice();
-
     if(player_choice === "rock"){
         if(computer === "rock"){
             player_score += 1;
